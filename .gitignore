@@ -1,0 +1,8 @@
+*.ckpt
+./results/*
+*results*
+*lightning_logs*
+*DS_Store
+*.pyc
+*.tif
+*.png
