@@ -54,9 +54,7 @@ files = [
 
 
 model = Model()
-model = model.load_from_checkpoint(
-    "<yourPath>/NucleusPanVision/3DVersion/result/Run1/checkpoints/Run1.ckpt"
-)
+model = model.load_from_checkpoint("<yourPath>/NucleusModel.ckpt")
 model = model.to(torch.device(f"cuda:{device_id}"))
 
 
